@@ -1,0 +1,72 @@
+﻿<!doctype html>
+<html lang="he" dir="rtl">
+
+<head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>תכנות 3 - JavaScript</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.rtl.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<nav>    
+    <div class="navbar-container">
+       
+        <button id="nav-button" class="btn-mobile hide" onclick="toggleNav()">
+            <img src="img/nav-icon.svg" alt="ניווט">
+        </button>
+        <ul id="main-nav" class="flex-container-nav hide-mobile">
+            <button id="close-nav-button" class="btn-mobile" onclick="toggleNav()">
+                <img src="img/nav-close.svg" alt="סגירה">
+            </button>
+            <div class="logo-darkMode-container">
+                <div class="logo-container">
+                    <img src="img/LOGO.jpg" alt="Logo">
+                </div>
+         
+
+            </div>
+            <a href="#home">דף בית</a>
+            <a href="#about">אודות</a>
+            <a href="#services">התנדבות</a>
+            <a href="#contact">צרו קשר</a>
+            
+                <button id="darkModeToggle" class="btn-mobile" onclick="toggleDarkMode()">
+                    <img src="img/night.png" alt="Night Mode">
+                </ul>
+                </button>
+          
+        </ul>
+    </div>
+</nav>
+
+
+
+
+        <header>
+          <h1>המועצה הישראלית להתנדבות</h1>
+      </header>
+      
+
+
+
+       <div id="itemsContainer"></div>
+    </div>
+
+    <!-- כפתור בחזרה למעלה להחליף בחץ למעלה -->
+<button id="scrollToTopBtn" onclick="scrollToTop()">בחזרה למעלה</button>
+
+
+
+
+</body>
+
+</html>
